@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --fc-title: #EE24FF;
+    --fc-span: #3F3D56;
+    --fc-text: #828282;
+    --color-line: #ECEFF2;
+}
+
+body {
+    margin: 6.4rem auto 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+    color: var(--fc-span)
+}
+
+h1 span {
+    color: var(--fc-title)
+}
+
+p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    color: var(--fc-text);
+    margin-top: 1.6rem;
+    max-width: 70.0rem;
+}
+
+p span {
+    color: var(--fc-span);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0%;
+    width: 100%
+}
+
+.linkBox {
+    display: flex;
+    gap: 4.2rem;
+}
+
+.linkBox a {
+    text-decoration: none;
+    color: var(--fc-span);
+    font-size: 1.5rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.line {
+    border: 1px solid var(--color-line);
+    width: 39.1rem;
+    margin-bottom: 1.6rem;
+}
+
+footer img {
+    width: 100%
+}
